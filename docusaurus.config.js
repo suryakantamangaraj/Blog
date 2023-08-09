@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Surya Stories',
   tagline: 'Technology Harmonizes with Philosophy: Insights and Explorations by Surya',
-  favicon: 'static/img/SURYA_STORIES.ico',
+  favicon: 'img/SURYA_STORIES.ico',
 
   // Set the production url of your site here
   url: 'https://suryakantamangaraj.github.io',
@@ -65,12 +65,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/SURYASTORIES.jpg',
       navbar: {
         title: 'Surya Stories',
         logo: {
           alt: 'Surya Stories Logo',
-          src: 'static/img/SURYASTORIES.svg',
+          src: 'img/SURYASTORIES.svg',
         },
         items: [
           /*

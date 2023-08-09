@@ -9,8 +9,8 @@ function PhilosophyIndex() {
 
   const philosophyLinks = [
     {
-      title: 'Why you shouldn’t be afraid to share your idea with others',
-      link: '/blog/Why-you-should-not-be-afraid-to-share-your-idea-with-others',
+      title: 'The Power of Humility - Embracing the Unknown',
+      link: '/blog/The-power-of-humility-embracing-the-unlknown',
     },
     {
       title: 'Blog Title 2',

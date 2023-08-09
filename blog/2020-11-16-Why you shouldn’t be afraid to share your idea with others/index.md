@@ -1,8 +1,8 @@
 ---
 slug: Why-you-should-not-be-afraid-to-share-your-idea-with-others
 title: Why you shouldn’t be afraid to share your idea with others
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+authors: [surya]
+tags: [startup, innovation, entrepreneurship]
 ---
 <br />
 
@@ -21,5 +21,5 @@ You may think you have to keep your idea safe, but the truth is, you should be t
 # Your idea will change
 The most important thing to remember is that there isn’t a single successful idea out there that hasn’t gone through multiple iterations of its core features. You have to introduce better experiences and functionality all the time; some even revamp their entire base idea to meet new realities. The truth is your original idea won’t even be recognizable by the time you get to seem back.
 
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
+![Why you shouldn’t be afraid to share your idea with others](./Why-should-you-share-with-others.jpeg)
 

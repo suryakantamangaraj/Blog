@@ -9,8 +9,8 @@ function MiscellaneousIndex() {
 
   const miscellaneousLinks = [
     {
-      title: 'Blog Title 1',
-      link: '/miscellaneous/blog-1',
+      title: 'Why you shouldn’t be afraid to share your idea with others',
+      link: '/blog/Why-you-should-not-be-afraid-to-share-your-idea-with-others',
     },
     {
       title: 'Blog Title 2',

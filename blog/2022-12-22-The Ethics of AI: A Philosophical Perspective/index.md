@@ -1,6 +1,6 @@
 ---
 slug: The-ethics-of-ai-a-philosophical-perspective
-title: The Ethics of AI: A Philosophical Perspective
+title: "The Ethics of AI: A Philosophical Perspective"
 authors: [surya]
 tags: [AI, philosophy, ethics]
 ---

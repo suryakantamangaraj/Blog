@@ -9,8 +9,8 @@ function TechnologyIndex() {
 
   const technologyLinks = [
     {
-      title: 'Blog Title 1',
-      link: '/technology/blog-1',
+      title: 'The Ethics of AI: A Philosophical Perspective',
+      link: '/technology/The-ethics-of-ai-a-philosophical-perspective',
     },
     {
       title: 'Blog Title 2',

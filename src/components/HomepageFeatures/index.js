@@ -40,7 +40,7 @@ const FeatureList = [
   {
     //title: 'Powered by React',
     title: (
-      <Link to="/miscellaneous">Miscellaneous</Link> // Add the Link component to the title
+      <Link to="/sundry">Sundry</Link> // Add the Link component to the title
     ),
     Svg: require('@site/static/img/growth_misc.svg').default,
     //Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,

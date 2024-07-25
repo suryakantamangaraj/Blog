@@ -4,36 +4,36 @@ import styles from './index.module.css';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-function MiscellaneousIndex() {
+function SundryIndex() {
   const { siteConfig } = useDocusaurusContext();
 
-  const miscellaneousLinks = [
+  const sundryLinks = [
     {
       title: 'Why you shouldn’t be afraid to share your idea with others',
       link: '/blog/Why-you-should-not-be-afraid-to-share-your-idea-with-others',
     },
     {
       title: 'Blog Title 2',
-      link: '/miscellaneous/blog-2',
+      link: '/sundry/blog-2',
     },
     // Add more links as needed
   ];
 
   return (
     <Layout
-      title={`Miscellaneous | ${siteConfig.title}`}
+      title={`Sundry | ${siteConfig.title}`}
       description="Explore miscellaneous articles and insights."
     >
       <header className={styles.heroBanner}>
         <div className="container">
-          <h1 className="hero__title">Miscellaneous</h1>
+          <h1 className="hero__title">Sundry</h1>
           <p className="hero__subtitle">Explore miscellaneous articles and insights.</p>
         </div>
       </header>
       <main>
         <section className={styles.features}>
           <div className="container">
-            {miscellaneousLinks.map((link) => (
+            {sundryLinks.map((link) => (
               <div key={link.title} className="row">
                 <div className="col col--12">
                   <h3><Link to={link.link}>{link.title}</Link></h3>
@@ -47,4 +47,4 @@ function MiscellaneousIndex() {
   );
 }
 
-export default MiscellaneousIndex;
+export default SundryIndex;

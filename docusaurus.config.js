@@ -84,7 +84,7 @@ const config = {
           */
           {
             href: 'https://suryaraj.me',
-            label: 'Surya',
+            label: 'suryaraj.me',
             position: 'right',
           },
         ],

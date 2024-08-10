@@ -132,7 +132,7 @@ const config = {
             ],
           },*/
         ],
-        copyright: `Copyright © 2020 - ${new Date().getFullYear()} | Surya Stories • Narrated with ❤️ by Surya`,
+        copyright: `©2020 - ${new Date().getFullYear()} | Surya Stories • Narrated with ❤️ by Surya`,
       },
       prism: {
         theme: lightCodeTheme,

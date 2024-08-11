@@ -10,11 +10,11 @@ function TechnologyIndex() {
   const technologyLinks = [
     {
       title: 'The Ethics of AI: A Philosophical Perspective',
-      link: '/technology/The-ethics-of-ai-a-philosophical-perspective',
+      link: '/blog/The-ethics-of-ai-a-philosophical-perspective',
     },
     {
       title: 'Blog Title 2',
-      link: '/technology/blog-2',
+      link: '/blog/blog-2',
     },
     // Add more links as needed
   ];

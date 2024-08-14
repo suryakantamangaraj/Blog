@@ -13,8 +13,8 @@ function SundryIndex() {
       link: '/blog/Why-you-should-not-be-afraid-to-share-your-idea-with-others',
     },
     {
-      title: 'Blog Title 2',
-      link: '/sundry/blog-2',
+      title: 'The Evolution of Digital Gardens: A Journey from Personal Knowledge Management to Public Curation',
+      link: '/blog/The-evolution-of-digital-gardens',
     },
     // Add more links as needed
   ];

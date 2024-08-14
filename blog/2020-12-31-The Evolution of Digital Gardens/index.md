@@ -47,7 +47,7 @@ The digital gardening community is vast and diverse, with many people sharing th
 
 These resources provide a wealth of inspiration for anyone interested in starting their own digital garden or exploring how others approach personal knowledge management.
 
-![Digital Garden Visual](./Digital%20Garden%20Visual.png)
+![Digital Garden Visual](./Digital-Garden-Visual.png)
 
 ## The Buzz Around Digital Gardens
 
@@ -57,8 +57,7 @@ One notable moment in the digital garden movement was the launch of [Roam Resear
 
 Another key moment was the rise of [Obsidian](https://obsidian.md/) in 2020, a tool that allows users to create a "second brain" by linking notes together. Obsidian's flexibility and local-first approach have made it a favorite among digital gardeners who want more control over their data.
 
-![Buzz Around Digital Gardens](#)  
-*Placeholder: Insert an image here that captures the social media buzz around digital gardens, perhaps a collage of tweets or social media posts using the hashtag #digitalgarden.*
+![Buzz Around Digital Gardens](./Buzz-Around-Digital-Gardens.png)  
 
 ## Conclusion
 
@@ -66,5 +65,5 @@ Digital gardens represent a shift away from the fast-paced, performative nature 
 
 In creating and tending to my digital garden, I've found that it provides a sense of freedom and creativity that is often missing in other forms of online expression. It's a space where I can experiment, learn, and grow, all while sharing my journey with others. Whether you're new to the concept or a seasoned digital gardener, I hope this exploration has inspired you to start or continue cultivating your own garden.
 
-![My Digital Garden](#)  
+![My Digital Garden](./My-Digital-Garden.jpg)  
 

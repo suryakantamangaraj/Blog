@@ -19,7 +19,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
     }}
   />
   <em className="text-gray-600">
-    Figure: A visual representation of 5G technology showcasing its speed, low latency, and high capacity capabilities, which are transforming connectivity and communication.
+    Figure: 5G
   </em>
 </div>
 

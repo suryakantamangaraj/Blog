@@ -12,10 +12,6 @@ function TechnologyIndex() {
       title: 'The Ethics of AI: A Philosophical Perspective',
       link: '/blog/The-ethics-of-ai-a-philosophical-perspective',
     },
-    {
-      title: 'Blog Title 2',
-      link: '/blog/blog-2',
-    },
     // Add more links as needed
   ];
 

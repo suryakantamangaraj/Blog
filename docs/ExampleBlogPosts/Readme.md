@@ -1,1 +1,0 @@
-Intent of this ExampleBlog Post directory is it contained all the default blog examples.

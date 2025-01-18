@@ -12,10 +12,6 @@ function PhilosophyIndex() {
       title: 'The Power of Humility - Embracing the Unknown',
       link: '/blog/The-power-of-humility-embracing-the-unlknown',
     },
-    {
-      title: 'Blog Title 2',
-      link: '/philosophy/blog-2',
-    },
     // Add more links as needed
   ];
 

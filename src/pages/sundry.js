@@ -34,10 +34,11 @@ function SundryIndex() {
         <section className={styles.features}>
           <div className="container">
             {sundryLinks.map((link) => (
-              <div key={link.title} className="row">
-                <div className="col col--12">
-                  <h3><Link to={link.link}>{link.title}</Link></h3>
-                </div>
+              // Update article rendering
+              <div key={link.title} className={styles.articleCard}>
+                <h3 className={styles.articleTitle}>
+                  <Link to={link.link}>{link.title}</Link>
+                </h3>
               </div>
             ))}
           </div>

@@ -8,6 +8,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(45deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+  color: white;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +22,37 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+}
+
+.features {
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.articleCard {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  background: var(--ifm-card-background-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+}
+
+.articleCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.articleTitle {
+  margin: 0;
+  text-align: center;
+}
+
+.articleTitle:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: none;
 }

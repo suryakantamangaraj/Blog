@@ -30,7 +30,6 @@ function PhilosophyIndex() {
         <section className={styles.features}>
           <div className="container">
             {philosophyLinks.map((link) => (
-              // Update article rendering
               <div key={link.title} className={styles.articleCard}>
                 <h3 className={styles.articleTitle}>
                   <Link to={link.link}>{link.title}</Link>

@@ -9,9 +9,18 @@ function TechnologyIndex() {
 
   const technologyLinks = [
     {
+      title: 'The Power of 5G: Transforming Connectivity and Communication',
+      link: '/blog/the-power-of-5g-transforming-connectivity-and-communication',
+    },
+    {
       title: 'The Ethics of AI: A Philosophical Perspective',
       link: '/blog/The-ethics-of-ai-a-philosophical-perspective',
     },
+    {
+      title: 'Quantum Computing: Revolutionizing Problem-Solving in the Digital Age',
+      link: '/blog/quantum-computing-revolutionizing-problem-solving-in-the-digital-age',
+    },
+    
     // Add more links as needed
   ];
 
@@ -30,7 +39,6 @@ function TechnologyIndex() {
         <section className={styles.features}>
           <div className="container">
             {technologyLinks.map((link) => (
-              // Update article rendering
               <div key={link.title} className={styles.articleCard}>
                 <h3 className={styles.articleTitle}>
                   <Link to={link.link}>{link.title}</Link>

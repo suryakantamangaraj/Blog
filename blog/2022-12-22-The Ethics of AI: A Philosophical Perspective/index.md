@@ -22,4 +22,3 @@ Another ethical concern is the possibility of AI being used to harm people. As A
 Ultimately, the ethics of AI will depend on how we choose to use this technology. By carefully considering the potential consequences of its use, we can ensure that AI is developed and deployed in a way that benefits society as a whole.
 
 ![The Ethics of AI](./ethics-of-ai.jpg)
-

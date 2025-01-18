@@ -1,41 +1,130 @@
-# Website
+# Surya's Blog
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Personal blog built with [Docusaurus 3](https://docusaurus.io/), featuring articles on **technology, philosophy, and various insights**.
 
-### Installation
+---
 
+## 🚀 Features
+- 📱 **Responsive design**
+- 🌓 **Dark/Light mode toggle**
+- 🔍 **Full-text search**
+- 📊 **Category-based organization**
+- ⚡️ **Fast page loads with optimized performance**
+
+---
+
+## 🛠 Tech Stack
+- **Docusaurus 3** – Static site generator  
+- **React** – UI components  
+- **MDX** – Markdown with JSX support  
+- **TypeScript** – Strongly typed development  
+- **CSS Modules** – Scoped styling  
+
+---
+
+## 🔧 Prerequisites
+- **Node.js** `>=18`
+- **Yarn** `>=1.22`
+
+---
+
+## 📌 Getting Started
+
+### **Installation**
+```bash
+# Clone repository
+git clone https://github.com/suryakantamangaraj/Blog.git
+cd Blog
+
+# Install dependencies
+yarn install
 ```
-$ yarn
+
+---
+
+## 🏗️ Development
+
+- **Start the development server**:
+  ```bash
+  yarn start
+  ```
+
+- **Build for production**:
+  ```bash
+  yarn build
+  ```
+
+- **Serve the production build locally**:
+  ```bash
+  yarn serve
+  ```
+
+---
+
+## 📂 File Structure
+
+```plaintext
+Blog/
+├── blog/              # Blog posts (Markdown & MDX)
+├── src/
+│   ├── components/    # Reusable React components
+│   ├── css/          # Global styles (CSS Modules)
+│   └── pages/        # Static pages (About, Contact, etc.)
+├── static/            # Static assets (images, files)
+└── docusaurus.config.js  # Docusaurus configuration
 ```
 
-### Local Development
+---
 
-```
-$ yarn start
-```
+## ✍️ Writing Posts
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+To add a new blog post:  
 
-### Build
+1. **Create a new `.md` or `.mdx` file** in the `blog/` directory.  
+2. **Add frontmatter** to define metadata:
+   ```yaml
+   ---
+   title: "My First Blog Post"
+   date: 2024-01-18
+   tags: [Technology, Web Development]
+   ---
+   ```
+3. **Write content** using Markdown.  
+4. **Add images** inside the same directory as your post.  
 
-```
-$ yarn build
-```
+---
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 🚀 Deployment
 
-### Deployment
+This blog is **automatically deployed** to **GitHub Pages** using **GitHub Actions**.  
 
-Using SSH:
+- **Push to the `main` branch** triggers an automatic deployment.
 
-```
-$ USE_SSH=true yarn deploy
-```
+---
 
-Not using SSH:
+## 🤝 Contributing
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+1. **Fork the repository**  
+2. **Create a feature branch**:
+   ```bash
+   git checkout -b feature/new-feature
+   ```
+3. **Commit your changes**:
+   ```bash
+   git add .
+   git commit -m "feat: add new blog feature"
+   ```
+4. **Push to your branch**:
+   ```bash
+   git push origin feature/new-feature
+   ```
+5. **Open a Pull Request** for review.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more details.
+
+---

@@ -83,9 +83,7 @@ jobs:
 
       - name: Debug GITHUB_RUN_ID
         run: 
-          echo "Run ID: ${{ github.run_id }}"
-        
-        
+          echo ${{ github.run_id }}
 
       # Step 9: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages

@@ -58,6 +58,13 @@ jobs:
       - name: Verify build directory
         run: ls -la build
 
+      # Added some pre-cautionary steps
+      - name: Remove Symlinks
+        run: find build -type l -exec rm -rf {} \;
+
+      - name: Debug Artifact Size
+        run: du -sh build
+
       # Step 6: Configure GitHub Pages
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v2

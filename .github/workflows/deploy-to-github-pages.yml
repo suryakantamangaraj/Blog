@@ -1,75 +1,49 @@
-# GitHub Actions workflow for deploying static content to GitHub Pages
 name: Deploy to GitHub Pages
 
 on:
-  # Trigger workflow on pushes to the main branch
   push:
     branches: [main]
-
-  # Allow manual trigger from the Actions tab
   workflow_dispatch:
 
-# Set required permissions for GitHub Pages deployment
 permissions:
-  contents: read    # Read repository content
-  pages: write      # Write access to GitHub Pages
-  id-token: write   # Access for authentication
+  contents: read
+  pages: write
+  id-token: write
 
-# Configure concurrency to ensure one deployment at a time
 concurrency:
-  group: "pages"              # Group deployments under "pages"
-  cancel-in-progress: true    # Cancel ongoing deployments if a new one starts
+  group: "pages"
+  cancel-in-progress: true
 
-# Environment variables to optimize memory usage
 env:
   NODE_OPTIONS: --max-old-space-size=6144
 
 jobs:
   deploy:
-    # Configure deployment environment for GitHub Pages
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
-    # Use GitHub-hosted runner
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: Check out repository code
       - name: Checkout code
         uses: actions/checkout@v4
-
-      # Step 2: Set up Node.js environment
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18.x    # Use Node.js version 18
-          cache: yarn           # Cache dependencies for faster builds
-
-      # Step 3: Install dependencies with Yarn
+          node-version: 18.x
+          cache: yarn
       - name: Install dependencies
         run: yarn install --frozen-lockfile --non-interactive
-
-      # Step 4: Build the project
       - name: Build project
         run: yarn build
-
-      # Step 5: Verify build directory (for debugging)
       - name: Verify build directory
         run: ls -la build
-
-      # Step 6: Configure GitHub Pages
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v2
-
-      # Step 7: Upload build artifacts
+      # Step 7: Upload build artifacts (Corrected)
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
-          name: build-artifacts   # Name of the uploaded artifact
-          path: build             # Path to the build directory
-
-      # Step 8: Deploy to GitHub Pages
+          path: build
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2

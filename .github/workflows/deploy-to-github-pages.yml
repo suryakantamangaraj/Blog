@@ -75,11 +75,17 @@ jobs:
         with:
           name: build-artifacts   # Name of the artifact to download
           path: build             # Path to extract the artifact
-
+      
+      # adding some debug steps 
       - name: Check GITHUB_TOKEN Permissions
         run: |
           curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           https://api.github.com/repos/${{ github.repository }}/pages
+      
+      - name: Debug - List uploaded artifacts
+        run: |
+          echo "Artifacts directory content:"
+          ls -la build
 
       - name: Debug GITHUB_RUN_ID
         run: 
@@ -87,5 +93,5 @@ jobs:
 
       # Step 9: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        id: deployment
+        #id: deployment
         uses: actions/deploy-pages@v2

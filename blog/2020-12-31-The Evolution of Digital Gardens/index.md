@@ -7,7 +7,7 @@ tags: [digital gardens, wiki, personal knowledge management, public curation]
 
 ## Introduction
 
-In an era where information is abundant and often overwhelming, digital gardens have emerged as a unique and personal way to cultivate knowledge, ideas, and creativity. Unlike traditional blogs that present polished, final versions of thoughts, digital gardens are living documents that grow, change, and evolve over time. If you're curious to see a digital garden in action, feel free to explore my own garden [here](https://wiki.suryaraj.me/).
+In an era where information is abundant and often overwhelming, digital gardens have emerged as a unique and personal way to cultivate knowledge, ideas, and creativity. Unlike traditional blogs that present polished, final versions of thoughts, digital gardens are living documents that grow, change, and evolve over time. If you're curious to see a digital garden in action, feel free to explore my own garden [here](https://wiki.suryaraj.com/).
 
 ## The Concept of Digital Gardens
 
@@ -61,7 +61,7 @@ Another key moment was the rise of [Obsidian](https://obsidian.md/) in 2020, a t
 
 ## Conclusion
 
-Digital gardens represent a shift away from the fast-paced, performative nature of traditional blogging and social media. They offer a more organic, reflective way to share knowledge and ideas, where content is allowed to grow and evolve over time. As someone who has embraced this concept, I invite you to explore my own digital garden [here](https://wiki.suryaraj.me/), where you can see how I've curated my thoughts and ideas.
+Digital gardens represent a shift away from the fast-paced, performative nature of traditional blogging and social media. They offer a more organic, reflective way to share knowledge and ideas, where content is allowed to grow and evolve over time. As someone who has embraced this concept, I invite you to explore my own digital garden [here](https://wiki.suryaraj.com/), where you can see how I've curated my thoughts and ideas.
 
 In creating and tending to my digital garden, I've found that it provides a sense of freedom and creativity that is often missing in other forms of online expression. It's a space where I can experiment, learn, and grow, all while sharing my journey with others. Whether you're new to the concept or a seasoned digital gardener, I hope this exploration has inspired you to start or continue cultivating your own garden.
 

@@ -5,8 +5,6 @@ authors: [surya]
 tags: [Edge Computing, IoT, Technology, Innovation]
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 ## The Rise of Edge Computing: Enhancing Speed and Efficiency in IoT
 
 Edge computing is revolutionizing the Internet of Things (IoT) by bringing data processing closer to the source. This approach enhances speed, reduces latency, and improves the efficiency of IoT devices, unlocking new possibilities for innovation and application.
@@ -39,20 +37,6 @@ While edge computing offers numerous advantages, it also presents challenges suc
 
 The rise of edge computing is enhancing speed and efficiency in IoT, driving innovation and transforming various industries. As this technology continues to evolve, it will play a crucial role in shaping the future of IoT and connected devices.
 
-<div className="text-center">
-  <img 
-    src={require('./edge-computing.jpeg').default}
-    alt="Edge Computing"
-    style={{
-      maxWidth: '800px',
-      width: '100%',
-      height: 'auto',
-      margin: '20px auto',
-      display: 'block'
-    }}
-  />
-  <em className="text-gray-600">
-    Figure: Edge Computing
-  </em>
-</div>
+![Edge Computing](./edge-computing.jpeg)
+*Figure: Edge Computing*
 

@@ -73,8 +73,8 @@ const config = {
         },
         items: [
           {
-            href: 'https://suryaraj.me',
-            label: 'suryaraj.me',
+            href: 'https://suryaraj.com',
+            label: 'suryaraj.com',
             position: 'right',
           },
         ],

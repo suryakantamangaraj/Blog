@@ -40,6 +40,7 @@ const config = {
         docs: false,
         blog: {
           showReadingTime: true,
+          authorsMapPath: 'authors.yml',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

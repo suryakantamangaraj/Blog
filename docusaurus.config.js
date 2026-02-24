@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'suryaraj.me', // Usually your GitHub org/user name.
+  organizationName: 'suryaraj.com', // Usually your GitHub org/user name.
   projectName: 'Blog', // Usually your repo name.
 
   onBrokenLinks: 'warn',
@@ -60,7 +60,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        { name: 'keywords', content: 'Surya Raj, Suryakanta Mangaraj, technology blog, philosophy, short stories, creative writing, programming, RF, AI, Software Development' }
+        { name: 'keywords', content: 'Surya Raj, Suryakanta Mangaraj, technology blog, philosophy, short stories, creative writing, programming, RF, AI, Software Development' },
+        { name: 'description', content: 'Technology Harmonizes with Philosophy: Insights and Explorations by Surya Raj a.k.a. Suryakanta Mangaraj. A personal blog covering tech, philosophy, and creative writing.' }
       ],
       // Replace with your project's social card
       image: 'img/surya-raj-social-card.jpg',

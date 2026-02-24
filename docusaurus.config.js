@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Surya Stories',
+  title: 'Surya Raj | Technology, Philosophy & Creative Thoughts',
   tagline: 'Technology Harmonizes with Philosophy: Insights and Explorations by Surya',
   favicon: 'img/SURYA_STORIES.ico',
 
   // Set the production url of your site here
-  url: 'https://suryakantamangaraj.github.io',
+  url: 'https://blog.suryaraj.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -44,6 +44,13 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
@@ -51,8 +58,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        { name: 'keywords', content: 'Surya Raj, Suryakanta Mangaraj, technology blog, philosophy, short stories, creative writing, programming, RF, AI, Software Development' }
+      ],
       // Replace with your project's social card
-      image: 'img/SURYASTORIES.jpg',
+      image: 'img/surya-raj-social-card.jpg',
       navbar: {
         title: 'Surya Stories',
         logo: {
